@@ -1,0 +1,154 @@
+.history{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(76, 240, 103);
+    height: max-content;
+}
+
+
+.history_address{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+
+
+
+.btn:active,
+.btn:hover {
+  color: black;
+}
+
+/*client section*/
+#client-section {
+  position: relative;
+}
+
+#client-section::before {
+  content: "";
+  position: absolute;
+  background: url('/images/bg1.jpg');
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .4;
+}
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-items {
+  padding: 34px;
+}
+
+#clients img {
+  height: 124px;
+}
+
+/*client section*/
+#clients{
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+#client img{
+  width: 66px;
+  height: auto;
+  padding : 0px 56px;
+}
+
+
+/*contact setting*/
+#contact{
+  position: relative;
+}
+#contact::before{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url('/images/contact.jpg') no-repeat center center/cover;
+}
+
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+  width:100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0.8;
+}
+#contact-box form{
+  width: 40%;   
+
+}
+#contact-box label{
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+/*footer*/
+footer{
+  background: black;
+  color:white;
+  padding: 9px 20px;
+}
+
+/*utility classes*/
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h-secondary {
+  font-size: 2.8rem;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+
+/*contact*/
+#contact-box form{
+  width:80%;
+}
+
+/*footer*/
+
+/*utility*/
+.h-primary{
+  font-size:26px;
+}
+.btn{
+  font-size: 13px;
+  padding: 4px 8px;
+}
